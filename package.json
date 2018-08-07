@@ -1,0 +1,27 @@
+{
+  "name": "pixijs-practice",
+  "version": "1.0.0",
+  "description": "Noodle around with code to make things appear on screen.",
+  "main": "index.js",
+  "dependencies": {
+    "pixi.js": "^4.8.1"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.2",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --port 3001 --global --inline --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development"
+  },
+  "author": "rorsach",
+  "license": "ISC"
+}
