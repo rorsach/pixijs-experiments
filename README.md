@@ -1,5 +1,7 @@
 # PixiJS Experiments
 
+![First Result from playing with PixiJS.](https://github.com/rorsach/pixijs-experiments/blob/master/first-result.png)
+
 ## Installation
 
 * Clone the repo
